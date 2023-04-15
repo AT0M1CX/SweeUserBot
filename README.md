@@ -6,6 +6,9 @@
 
 Благодаря использованию библиотеки **Pyrogram**, **SweeUserBot** может работать *быстро* и *эффективно*, обеспечивая высокую производительность и стабильность. Он также поддерживает множество *настроек* и *конфигураций*, которые могут быть настроены для оптимального использования в соответствии с потребностями пользователя.
 # Установка (termux)
+	pkg install wget
+-- эта команда устанавливает пакет wget и его зависимости, если они не установлены.
+
 	wget https://raw.githubusercontent.com/AT0M1CX/SweeUserBot/main/installer/SUB.sh
 -- эта команда, которая загружает скрипт установки **SweeUserBot** с репозитория **GitHub**.
 
@@ -18,7 +21,7 @@
 	bash SUB.sh 
 -- этa команда, которая запускает скрипт **SweeUserBot**.
 ###  Одной командой 
-	wget https://raw.githubusercontent.com/AT0M1CX/SweeUserBot/main/installer/SUB.sh && chmod +x SUB.sh && bash SUB.sh -i && bash SUB.sh
+	pkg install wget && wget https://raw.githubusercontent.com/AT0M1CX/SweeUserBot/main/installer/SUB.sh && chmod +x SUB.sh && bash SUB.sh -i && bash SUB.sh
 -- Это загрузит скрипт установки, изменит права на файл и запустит его в установочном режиме.
 # Установка (Windows)
 ### comming soon..
