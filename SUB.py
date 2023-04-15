@@ -11,7 +11,7 @@ from phonenumbers import carrier, geocoder, timezone
 from pyrogram import Client, enums, filters, idle, sync
 from simpledemotivators import Demotivator
 
-with open('SUB/session.txt', 'r') as session_file:
+with open('SweeUserBot/session.txt', 'r') as session_file:
     session = session_file.read()
 
 os.system("clear")
