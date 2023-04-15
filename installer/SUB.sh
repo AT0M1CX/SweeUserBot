@@ -63,7 +63,7 @@ function install {
         apt update -y
     sleep 1
     clear
-    {echo "${BLUE}[${MAGENTA}*${BLUE}] ${CYAN}Installing ${BLUE}pyt${ORANGE}hon.."; echo; echo; }
+    { echo "${BLUE}[${MAGENTA}*${BLUE}] ${CYAN}Installing ${BLUE}pyt${ORANGE}hon.."; echo; echo; }
         pkg install python -y
     sleep 1
     clear
