@@ -85,6 +85,7 @@ function install {
     { echo "${BLUE}[${MAGENTA}*${BLUE}] ${CYAN}Installing ${GREEN}Successfully ✅${CYAN}"; echo; echo; }
     echo "1" > SweeUserBot/installed.txt
     { echo; echo; read -p "${BLUE}[${MAGENTA}*${BLUE}] ${CYAN}Press ${GREEN_BG}${BLACK} Enter ${DEFAULT_BG}${CYAN} To return to the main menu."; } 
+}
 
 
 
