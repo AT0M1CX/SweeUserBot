@@ -63,7 +63,7 @@ function install {
         apt update -y
     sleep 1
     clear
-    {echo "${BLUE}[${MAGENTA}*${BLUE}] ${CYAN}Installing ${BLUE}pyt${ORANGE}hon.."; echo; echo; }
+    {xecho "${BLUE}[${MAGENTA}*${BLUE}] ${CYAN}Installing ${BLUE}pyt${ORANGE}hon.."; echo; echo; }
         pkg install python -y
     sleep 1
     clear
@@ -84,7 +84,8 @@ function install {
     clear
     { echo "${BLUE}[${MAGENTA}*${BLUE}] ${CYAN}Installing ${GREEN}Successfully ✅${CYAN}"; echo; echo; }
     echo "1" > SweeUserBot/installed.txt
-    { echo; echo; read -p "${BLUE}[${MAGENTA}*${BLUE}] ${CYAN}Press ${GREEN_BG}${BLACK} Enter ${DEFAULT_BG}${CYAN} To return to the main menu."; } }
+    { echo; echo; read -p "${BLUE}[${MAGENTA}*${BLUE}] ${CYAN}Press ${GREEN_BG}${BLACK} Enter ${DEFAULT_BG}${CYAN} To return to the main menu."; } 
+}
 
 
 
