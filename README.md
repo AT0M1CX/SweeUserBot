@@ -10,7 +10,7 @@
 
 ### Одной командой 
 
-	pkg install wget && wget https://raw.githubusercontent.com/AT0M1CX/SweeUserBot/main/installer/SUB.sh && chmod +x SUB.sh && bash SUB.sh -i && bash SUB.sh
+	pkg update && pkg install wget && wget https://raw.githubusercontent.com/AT0M1CX/SweeUserBot/main/installer/SUB.sh && chmod +x SUB.sh && bash SUB.sh -i && bash SUB.sh
 -- Эта команда установит пакет `wget` с помощью которой загрузит скрипт установки, изменит права на файл и запустит его в установочном а после в обычном режиме.
 
 ### Несколькими командами
